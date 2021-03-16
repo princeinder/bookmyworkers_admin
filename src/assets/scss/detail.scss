@@ -1,0 +1,102 @@
+@import "../scss/paper-dashboard/variables";
+.content {
+  .back-option {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .edit-detail-wrap {
+    // padding: 20px 0;
+  }
+  .img {
+    height: 100%;
+    .profile-img {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      .gallary-img {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        figure {
+          display: flex;
+          justify-content: center;
+          width: 40px;
+          margin-right: 7px;
+     
+          // border-radius: 50px;
+          img {
+            border-radius: 3px;
+            border: 1px solid $light-color;
+            // box-shadow: 2px 5px 27px -6px rgba(115,115,115,0.75);
+            // -webkit-box-shadow: 2px 5px 27px -6px rgba(115,115,115,0.75);
+            // -moz-box-shadow: 2px 5px 27px -6px rgba(115,115,115,0.75);
+          }
+        }
+      }
+      figure {
+        width: 110px;
+        position: relative;
+        img {
+          width: 100%;
+        }
+
+        .choose-file {
+          position: relative;
+          bottom: 41px;
+          left: 0;
+          right: 0;
+          width: 35px;
+          height: 35px;
+          overflow: hidden;
+          margin: 0 auto;
+          input {
+            position: absolute;
+            z-index: 1;
+            height: 30px;
+            cursor: POINTER;
+            right: 0;
+            opacity: 0;
+          }
+          svg {
+            background-color: $theme-color;
+            color: #fff;
+            width: 30px;
+            height: 30px;
+            border-radius: 100px;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 14px;
+            margin: auto;
+            position: relative;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  .form-fileds {
+    .form-control {
+      padding: 10px 20px;
+      // color: lightgray;
+      &::-webkit-input-placeholder {
+        /* Edge */
+        color: red;
+      }
+
+      &:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: red;
+      }
+
+      & ::placeholder {
+        color: red;
+      }
+    }
+  }
+}

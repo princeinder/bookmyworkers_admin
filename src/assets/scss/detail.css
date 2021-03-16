@@ -1,0 +1,142 @@
+.content .back-option {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.content .img {
+  height: 100%;
+}
+
+.content .img .profile-img {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content .img .profile-img .gallary-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.content .img .profile-img .gallary-img figure {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 40px;
+  margin-right: 7px;
+}
+
+.content .img .profile-img .gallary-img figure img {
+  border-radius: 3px;
+  border: 1px solid lightgrey;
+}
+
+.content .img .profile-img figure {
+  width: 110px;
+  position: relative;
+}
+
+.content .img .profile-img figure img {
+  width: 100%;
+}
+
+.content .img .profile-img figure .choose-file {
+  position: relative;
+  bottom: 41px;
+  left: 0;
+  right: 0;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.content .img .profile-img figure .choose-file input {
+  position: absolute;
+  z-index: 1;
+  height: 30px;
+  cursor: POINTER;
+  right: 0;
+  opacity: 0;
+}
+
+.content .img .profile-img figure .choose-file svg {
+  background-color: #001F4F;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 14px;
+  margin: auto;
+  position: relative;
+  cursor: pointer;
+}
+
+.content .form-fileds .form-control {
+  padding: 10px 20px;
+}
+
+.content .form-fileds .form-control::-webkit-input-placeholder {
+  /* Edge */
+  color: red;
+}
+
+.content .form-fileds .form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: red;
+}
+
+.content .form-fileds .form-control ::-webkit-input-placeholder {
+  color: red;
+}
+
+.content .form-fileds .form-control :-ms-input-placeholder {
+  color: red;
+}
+
+.content .form-fileds .form-control ::-ms-input-placeholder {
+  color: red;
+}
+
+.content .form-fileds .form-control ::placeholder {
+  color: red;
+}
+/*# sourceMappingURL=detail.css.map */

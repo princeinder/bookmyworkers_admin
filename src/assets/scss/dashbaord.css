@@ -1,0 +1,201 @@
+.head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.filter {
+  margin: 15px 0 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter.dashbaord-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.filter .inner-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filter .inner-filter .filter-text span {
+  font-size: 15px;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+.filter .inner-filter .slect-user {
+  margin-left: 15px;
+}
+
+.filter .inner-filter .slect-user .input-group {
+  margin-bottom: 0;
+}
+
+.filter .inner-filter .slect-user .input-group .form-select {
+  padding: 5px;
+  width: 141px;
+  border: 1px solid lightgrey;
+}
+
+.filter .csv-btn .btn {
+  padding: 10px 15px;
+  background-color: #001F4F;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.slect-user .input-group {
+  margin-bottom: 0;
+}
+
+.slect-user .input-group .form-select {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+}
+
+.nav .nav-item .nav-link:active,
+.nav .nav-item .nav-link .active {
+  background-color: #7ebf4b;
+}
+
+svg {
+  width: 46px;
+  height: 35px;
+}
+
+.save-submit {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.but_sell_tab .nav li {
+  margin-bottom: 20px;
+}
+
+.but_sell_tab .nav li a {
+  color: #001F4F;
+  font-size: 16px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.but_sell_tab .nav li a.active {
+  font-weight: bold;
+  border-bottom: 2px solid #001F4F;
+}
+
+.tab-content .fade {
+  opacity: 1;
+}
+
+.manage-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: 15px;
+  width: 260px;
+}
+
+.manage-search .filter-text {
+  font-size: 15px;
+  color: #2c2c2c;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.manage-search .form-control {
+  padding: 8px;
+}
+
+.manage-search .btn {
+  margin-left: 15px;
+}
+
+.start-pagination {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.start-pagination .pagination .page-item .page-link {
+  color: #001F4F;
+}
+
+.start-pagination .pagination .page-item .page-link:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem transparent;
+          box-shadow: 0 0 0 0.2rem transparent;
+}
+
+.start-pagination .pagination .page-item.active .page-link {
+  color: #FFFFFF;
+  background-color: #001F4F;
+  border: 0;
+}
+
+.no-data-found {
+  padding: 5px;
+}
+
+.no-data-found h6 {
+  text-align: center;
+  color: red;
+}
+
+.reset-password .modal-header {
+  text-align: center;
+}
+
+.logo-img-white img {
+  max-width: 100%;
+}
+
+.wrapper .sidebar .logo {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #FFFFFF;
+}
+/*# sourceMappingURL=dashbaord.css.map */

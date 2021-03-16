@@ -1,0 +1,75 @@
+@import "../scss/paper-dashboard/variables";
+
+.detail {
+  // .filter {
+  //     margin: 15px 0 25px;
+  //     display: flex;
+  //     justify-content: space-between;
+  //     align-items: center;
+  //     .inner-filter {
+  //         display: flex;
+  //         align-items: center;
+
+  //         .filter-text {
+  //             span {
+  //                 font-size: 15px;
+  //                 color: $black-color;
+  //                 font-weight: 600;
+  //             }
+  //         }
+
+  //         .slect-user {
+  //             margin-left: 15px;
+
+  //             .input-group {
+  //                 margin-bottom: 0;
+
+  //                 .form-select {
+  //                     padding: 5px;
+  //                     width: 141px;
+  //                     border: 1px solid $light-color;
+  //                 }
+  //             }
+  //         }
+
+  //     }
+  //     .csv-btn{
+  //         .btn{
+  //             padding: 10px 15px;
+  //             background-color: $theme-color;
+  //             font-weight: 600;
+  //             color: $white-color;
+  //         }
+  //     }
+  // }
+
+  table {
+    width: 100%;
+    overflow: auto;
+
+    thead {
+      tr {
+        th {
+          //     padding: 10px 13px;
+          //     color: $light-color;
+          //     font-size: 15px;
+          //    background-color: $btn-theme-color;
+        }
+
+        td {
+        }
+      }
+    }
+  }
+}
+
+.react-tel-input {
+  .phn-verify {
+    &.form-control {
+      line-height: normal;
+      height: unset;
+      width: 100%;
+      padding: 10px 45px;
+    }
+  }
+}

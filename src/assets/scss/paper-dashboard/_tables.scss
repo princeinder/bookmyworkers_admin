@@ -1,0 +1,361 @@
+.table {
+  .img-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .img-row {
+    max-width: 60px;
+    width: 60px;
+  }
+
+  .form-check {
+    margin: 0;
+
+    & label .form-check-sign::before,
+    & label .form-check-sign::after {
+      top: -17px;
+      left: 4px;
+    }
+  }
+
+  .btn {
+    margin: 0;
+  }
+
+  small,
+  .small {
+    font-weight: 300;
+  }
+
+  .card-tasks .card-body & {
+    margin-bottom: 0;
+
+    > thead > tr > th,
+    > tbody > tr > th,
+    > tfoot > tr > th,
+    > thead > tr > td,
+    > tbody > tr > td,
+    > tfoot > tr > td {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+
+  > thead > tr > th {
+    font-size: 15px;
+    font-weight: $font-weight-bold;
+    padding-bottom: 0;
+  
+    border: 0;
+  }
+
+  .radio,
+  .checkbox {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 15px;
+
+    .icons {
+      position: relative;
+    }
+
+    label {
+      &:after,
+      &:before {
+        top: -17px;
+        left: -3px;
+      }
+    }
+  }
+  > thead > tr > th,
+  > tbody > tr > th,
+  > tfoot > tr > th,
+  > thead > tr > td,
+  > tbody > tr > td,
+  > tfoot > tr > td {
+    padding: 12px 7px;
+    vertical-align: middle;
+    min-width: 120px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 120px;
+    width: 120px;
+    .hobbies {
+      margin-right: 5px;
+    }
+    .circle {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      img {
+        border-radius: 50px;
+        height: 50px;
+        width: 50px;
+      }
+    }
+
+    &.td-width {
+      min-width: 200px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      max-width: 140px;
+      width: 140px;
+    }
+    &:first-child {
+      min-width: 20px;
+      max-width: 20px;
+      width: 20px;
+    }
+    &.green {
+      color: green;
+    }
+    &.red {
+      color: rgb(129, 2, 2);
+    }
+    .star {
+      margin-right: 10px;
+    }
+    figure {
+      width: 46px;
+      margin: 0 auto;
+      border-radius: 50px;
+      border: 1px solid #d6d6d6;
+      height: 46px;
+      img {
+        border-radius: 50px;
+      }
+    }
+
+    .button-cover,
+    .knobs,
+    .layer {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+
+    .button {
+      position: relative;
+      top: 50%;
+      width: 74px;
+      height: 28px;
+      // margin: -2px auto -7px auto;
+      // overflow: hidden;
+    }
+
+    .button.r,
+    .button.r .layer {
+      border-radius: 100px;
+    }
+
+    .button.b2 {
+      border-radius: 2px;
+    }
+
+    .checkbox {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 3;
+    }
+
+    .knobs {
+      z-index: 2;
+    }
+
+    .layer {
+      width: 100%;
+      background-color: #ebf7fc;
+      transition: 0.3s ease all;
+      z-index: 1;
+    }
+
+    /* Button 1 */
+    #button-1 .knobs:before {
+      content: "";
+      position: absolute;
+      top: 2px;
+      left: 4px;
+      width: 24px;
+      height: 24px;
+      color: #fff;
+      font-size: 10px;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1;
+      padding: 9px 4px;
+      background-color: $theme-color;
+      border-radius: 50%;
+      transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+    }
+
+    #button-1 .checkbox:checked + .knobs:before {
+      content: "";
+      left: 42px;
+      background-color: #f44336;
+    }
+
+    #button-1 .checkbox:checked ~ .layer {
+      background-color: #fcebeb;
+    }
+
+    #button-1 .knobs,
+    #button-1 .knobs:before,
+    #button-1 .layer {
+      transition: 0.3s ease all;
+    }
+  }
+
+  .th-description {
+    max-width: 150px;
+  }
+  .td-price {
+    font-size: 26px;
+    font-weight: $font-weight-light;
+    margin-top: 5px;
+    position: relative;
+    top: 4px;
+    text-align: right;
+  }
+  .td-total {
+    font-weight: $font-weight-bold;
+    font-size: $font-size-h5;
+    padding-top: 20px;
+    text-align: right;
+  }
+
+  .td-actions .btn {
+    margin: 0px;
+  }
+
+  > tbody > tr {
+    position: relative;
+  }
+}
+
+.table-shopping {
+  > thead > tr > th {
+    font-size: $font-size-h6;
+    text-transform: uppercase;
+  }
+  > tbody > tr > td {
+    font-size: $font-paragraph;
+
+    b {
+      display: block;
+      margin-bottom: 5px;
+    }
+  }
+  .td-name {
+    font-weight: $font-weight-normal;
+    font-size: 1.5em;
+    small {
+      color: $dark-gray;
+      font-size: 0.75em;
+      font-weight: $font-weight-light;
+    }
+  }
+  .td-number {
+    font-weight: $font-weight-light;
+    font-size: $font-size-h4;
+  }
+  .td-name {
+    min-width: 200px;
+  }
+  .td-number {
+    text-align: right;
+    min-width: 170px;
+
+    small {
+      margin-right: 3px;
+    }
+  }
+
+  .img-container {
+    width: 120px;
+    max-height: 160px;
+    overflow: hidden;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.table-responsive {
+  overflow: auto;
+  padding-bottom: 10px;
+  width: 100%;
+  tr {
+    th {
+      &:first-child {
+        width: auto;
+        min-width: auto;
+        max-width: auto;
+      }
+    }
+    td {
+      svg {
+        color: #4e4e4e;
+        font-size: 15px;
+        margin-right: 12px;
+        cursor: pointer;
+        font-weight: 100;
+        //  background: $theme-color;
+        border-radius: 50px;
+        width: 31px;
+        height: 31px;
+        padding: 7px;
+        //  color: #ffff;
+        box-shadow: 0px 0px 9px 4px #8a8a8a42;
+        &.bi-eye-fill {
+          &:hover {
+            background-color: #ff9800;
+            color: $white-color;
+          }
+        }
+        &.edit {
+          &:hover {
+            background-color: $btn-theme-color;
+            color: $white-color;
+          }
+        }
+        &.delete {
+          &:hover {
+            background-color: rgb(158, 27, 27);
+            color: $white-color;
+          }
+        }
+
+        &.history {
+          &:hover {
+            background-color: $black-color;
+            color: $white-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+#tables .table-responsive {
+  margin-bottom: 30px;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #f5f5f5;
+}

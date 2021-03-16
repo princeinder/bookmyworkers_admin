@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400;600;700&display=swap");
+.login-wrap {
+  font-size: 14px;
+  color: #bebebe;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 2.5em;
+  background-color: #ebeef7;
+}
+.login-wrap .login-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 35em;
+  height: 85vh;
+  min-height: 42em;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.025);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.025);
+}
+
+.login-wrap .login-box-formbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  padding: 4em 6em;
+}
+
+.login-wrap .login-box-quotebox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+  padding: 0;
+}
+
+.login-wrap .login-box-quotebox {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #d3d7dd3d;
+  -webkit-transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: -webkit-box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out;
+  transition: box-shadow 0.3s ease-in-out, -webkit-box-shadow 0.3s ease-in-out;
+  height: 100%;
+}
+
+.login-wrap .login-box-signup {
+  text-align: center;
+}
+
+.login-wrap .login-box-signup a {
+  color: #001F4F;
+  font-weight: 600;
+  text-decoration: inherit;
+}
+
+.login-wrap .login-box-signup a:hover, .login-wrap .login-box-signup a:focus {
+  color: #7ebf4b;
+}
+
+.login-wrap .login-box-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.login-wrap .login-box-login .img-logo {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.login-wrap .login-box-login .img-logo figure {
+  width: 118px;
+  margin: 0 auto;
+}
+
+.login-wrap .login-box-login .img-logo figure img {
+  width: 100%;
+}
+
+.login-wrap .login-box-login > * {
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.login-wrap form > div {
+  position: relative;
+  padding: 1.5em 0 0;
+}
+
+.login-wrap form > div input {
+  color: #818181;
+  width: 100%;
+  padding: 1.5em 3em 1.5em 2em;
+  border: 1px solid #bebebe;
+  border-radius: 50px;
+}
+
+.login-wrap form > div input.input-email, .login-wrap form > div input.input-password {
+  background-repeat: no-repeat;
+  background-position: right 1em top 1.25em;
+}
+
+.login-wrap form > div input.input-email {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="lightgrey" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><circle cx="12" cy="12" r="4"></circle><path d="M16 12v1.5a2.5 2.5 0 0 0 5 0v-1.5a9 9 0 1 0 -5.5 8.28"></path></svg>');
+}
+
+.login-wrap form > div input.input-password {
+  background-image: url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="lightgrey" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><rect x="5" y="11" width="14" height="10" rx="2"></rect><circle cx="12" cy="16" r="1"></circle><path d="M8 11v-4a4 4 0 0 1 8 0v4"></path></svg>');
+}
+
+.login-wrap form > div input:focus {
+  outline-color: #001F4F;
+  border-color: #001F4F;
+}
+
+.login-wrap form > div label {
+  font-size: 1em;
+  position: absolute;
+  top: 0.8em;
+  left: 1.5em;
+  background: #FFFFFF;
+  padding: 0 0.5em;
+}
+
+.login-wrap form > div:focus-within label {
+  color: #001F4F;
+  font-weight: 600;
+}
+
+.login-wrap form > div .btn {
+  color: #FFFFFF;
+  font-size: 1em;
+  letter-spacing: 1px;
+  line-height: 1;
+  background-color: #001F4F;
+  border-color: #001F4F;
+  cursor: pointer;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.login-wrap form > div .btn:hover, .login-wrap form > div .btn:focus {
+  background-color: #7ebf4b !important;
+  border-color: #7ebf4b;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.login-wrap .quote-container {
+  padding: 0;
+  position: relative;
+  background-image: url("../../img/background-image-new.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.login-wrap .quote {
+  color: #FFFFFF;
+  font-size: 7em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.login-wrap .quote-small {
+  color: #ebeef7;
+  line-height: 180%;
+  padding: 2em 0 0 6em;
+  position: relative;
+}
+
+.login-wrap .quote-small::before {
+  content: "";
+  position: absolute;
+  top: 2.75em;
+  left: 1.2em;
+  width: 3em;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+/*# sourceMappingURL=login.css.map */

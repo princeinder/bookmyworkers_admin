@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AA2CI,OA3CG,CA2CH,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,IAAI;CAejB",
+    "sources": [
+        "manage-user.scss",
+        "paper-dashboard/_variables.scss"
+    ],
+    "names": [],
+    "file": "manage-user.css"
+}
